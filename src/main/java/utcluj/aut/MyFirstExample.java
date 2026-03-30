@@ -12,6 +12,7 @@ public class MyFirstExample {
         //read from console and print
         System.out.println("Enter two numbers: ");
         Scanner scanner = new Scanner(System.in);
+
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         System.out.println("Sum is: " + add(a, b));
